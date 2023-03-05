@@ -7,5 +7,6 @@ export default defineConfig({
     host: true,
     port: 8080,
   },
-  plugins: [react()]
-})
+  base: '/Vite-React-Docker--template/',
+  plugins: [react()],
+});
