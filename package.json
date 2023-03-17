@@ -1,0 +1,14 @@
+{
+  "name": "Vite-React-Docker--template",
+  "version": "1.0.0",
+  "repository": "git@github.com:adrian0-0/Vite-React-Docker--template.git",
+  "author": "Adrian Vinícius Roma Alves <adrianromaalves@hotmail.com>",
+  "license": "MIT",
+
+  "scripts": {
+    "test": "echo \"Test running...\"",
+    "dev": "echo \"Dev running...\"",
+    "build": "echo \"Build running...\""
+
+  }
+}
