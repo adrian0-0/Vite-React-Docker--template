@@ -1,12 +1,16 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // server: {
-  //   host: true,
-  //   port: 8080,
-  // },
-  base: '/Vite-React-Docker--template/',
+  server: {
+    host: "0.0.0.0",
+    port: 8080,
+    watch: {
+      usePolling: true,
+    },
+  },
+  // "base" is used in production
+  base: "/Vite-React-Docker--template/",
   plugins: [react()],
 });
